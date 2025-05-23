@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #fdf1f7;
+    background-color: #f9f1fd;
     color: #2d2d2d;
 }
 
@@ -84,7 +84,7 @@ footer {
 }
 
 #experiencia-laboral {
-    background-color: #ffe3f2;
+    background-color: #fff0f6;
     border-left: 6px solid #da1884;
     padding: 1.5rem;
     border-radius: 8px;
