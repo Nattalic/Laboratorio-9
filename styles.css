@@ -109,3 +109,27 @@ footer {
     margin: 0.3rem 0 0 0;
     color: #333;
 }
+
+#habilidades {
+    background-color: #f3e4ff;
+    border-left: 6px solid #b03dd5;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+#habilidades h2 {
+    color: #6c1a9c;
+}
+
+#habilidades ul {
+    list-style: none;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+}
+
+#habilidades li {
+    margin-bottom: 0.8rem;
+    color: #333;
+}
