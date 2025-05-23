@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fdf1f7;
+    color: #2d2d2d;
+}
+
+/* Banner con imagen de Kuromi como fondo */
+.banner-kuromi {
+    position: relative;
+    height: 300px;
+    background-image: url("Kuromi_banner.webp");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: #2d2d2d 0px 0px 10px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.banner-kuromi .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(111, 24, 143, 0.6);
+    z-index: 1;
+}
+
+.header-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.header-content p {
+    font-size: 1.2rem;
+    margin: 0.3rem 0 0 0;
+}
+
+main {
+    max-width: 700px;
+    margin: auto;
+    padding: 2rem 1rem;
+}
+
+section {
+    background-color: #fff0f6;
+    margin-bottom: 2rem;
+    border-left: 6px solid #8a00aa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #8a00aa;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #888;
+}
