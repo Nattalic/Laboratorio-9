@@ -111,8 +111,8 @@ footer {
 }
 
 #habilidades {
-    background-color: #f3e4ff;
-    border-left: 6px solid #b03dd5;
+    background-color: #fff0f6;
+    border-left: 6px solid #da1884;
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
@@ -120,7 +120,7 @@ footer {
 }
 
 #habilidades h2 {
-    color: #6c1a9c;
+    color: #8a004f;
 }
 
 #habilidades ul {
@@ -132,4 +132,13 @@ footer {
 #habilidades li {
     margin-bottom: 0.8rem;
     color: #333;
+}
+
+#logros-proyectos {
+    background-color: #fff0f6;
+    border-left: 6px solid #8a00aa;
+}
+
+#logros-proyectos h2 {
+    color: #8a00aa;
 }
